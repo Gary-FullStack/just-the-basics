@@ -1,11 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap") 
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   background-color: #e8dbd3;
   color: #333;
   line-height: 1.6;
@@ -37,20 +36,52 @@ a {
   text-decoration: none;
   color: #e87878;
   cursor: pointer;
+
 }
 
 #ingredients {
-    padding: 5px 15px;
-    border-radius: 10px;
-    background-color: darkkhaki;
-
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: darkkhaki;
 }
 
 .para {
   color: #75474a;
 }
 
+.titleStuff {
+  color: crimson;
+  text-align: center;
+  font-size: 30px;
+}
+
 #intro img {
   width: 300px;
   border: 2px solid #75474a;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+p,
+li {
+  line-height: 2;
+}
+
+#backToTop {
+  display: block;
+  text-align: right;
+
+}
+
+nav a {
+  display:  inline-block;
+  padding: 10px;
+  background-color: #75474a;
+  color: white;
+  border-radius: 5px;
+}
+
+header, nav, footer {
+  text-align: center;
 }
